@@ -1,0 +1,398 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto; 
+	}
+.header_section {
+	float:left;
+	width:100%;
+	background:#362641;
+	padding-top: 3rem;
+    padding-bottom:2rem;
+	position: relative;
+}
+.header_left {
+	float:left;
+	width:33.3%;
+}
+.header_right {
+	float:right;
+	width:33.3%;
+}
+.header_center {
+	float:left;
+	width:33.3%;
+	text-align:center;
+	
+}		
+.illustration {
+	text-decoration:none;
+	color:#FFBA04;
+	font-family:"Sora", sans-serif;
+	font-size:20.96px;
+	font-weight:700;
+}	
+.header_list li{display:inline;}
+.header_list:hover {color: #ccc7b0; }
+.header_list  {
+	text-decoration:none;
+	display:inline;
+	color:white;
+	font-family:"Viaoda Libre", display;
+	font-size:19.2px;
+	font-weight:500;
+	padding:10px;
+	justify-content: center;
+letter-spacing: 3.41px;
+margin: 30px 15px;
+}
+/*HERO SECTION*/
+	
+.hero_section {
+	float:left;
+	width:100%;
+	background-image:url(../images/bg.jpg);
+	background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+	padding-top: 4rem;
+    padding-bottom:4rem;
+	position: relative;
+}	
+.hero_title {float:left; width:100%;}
+.hero_title h1 {
+	color:#362641;
+	font-family:"Viaoda Libre", display;
+	font-size:74px;
+	font-weight:500;
+	text-align:left;
+	padding-bottom:3rem;
+}	
+.hero_pagecenter {
+	float:none;
+	width:100%;
+	max-width:90%;
+	margin:0 auto;
+}	
+	
+/*WORK SECTION*/
+.work_pagecenter {
+	float:none;
+	width:100%;
+	max-width:80%;
+	margin:0 auto;
+}
+.work_section {
+	float:left;
+	width:100%;
+	background-color:#362641;
+	padding:10em 0em;
+	position: relative;
+}
+.work_img {
+	float:left;
+	width:50%;
+}
+.work_img img {
+	width:85%;
+}
+.work_text {
+	float:right;
+	width:50%;
+}	
+.work_text h6 {
+	color:#FFD66A;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:500;
+	text-align:left;
+}
+.work_text p {
+	color: #FFFFFF;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:400;
+	text-align:left;
+	line-height: 2;
+letter-spacing: .37px;
+}
+.work_button {
+	color:#6a4d00;
+	background-color:#FFD66A;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:700;
+	border-radius: 100px;
+	padding: 14px 40px;
+	transform: rotate(0) scaleX(1);
+transition-timing-function: ease-in;
+transform-origin: 0 50%;
+transition: transform ease-out 0.5s;
+}
+.work_button:hover{
+	color:white;
+	background: #e62b56;
+	
+}	
+/*SERVICE SECTION */
+.service_pagecenter {
+	float:none;
+	width:100%;
+	max-width:80%;
+	margin:0 auto;
+}
+.service_section {
+	float:left;
+	width:100%;
+	background-color: #e49dcd;
+	padding-top: 6rem;
+    padding-bottom: 6rem;
+	position: relative;
+}
+.service_list ,.service_title {
+	float:left;
+	width:100%;
+}
+.service_list1 {
+	float:left;
+	width:50%;
+}
+.service_list2 {
+	float:right;
+	width:50%;
+}
+.service_title h4 {
+	color:#362641;
+	font-family:"Viaoda Libre", display;
+	font-size:50px;
+	font-weight:500;
+	text-align:center;
+	margin-bottom: 20px;
+}
+.service_list h5 {
+	color:#362641;
+	font-family:"Sora", sans-serif;
+	font-size:20.96px;
+	font-weight:500;
+	margin-right: 3em;
+  margin-left: 3em;
+}
+
+.service_list p {
+	color:#FFFFFF;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:300;
+	margin-right: 3em;
+    margin-left: 3em;
+    line-height: 2;
+   letter-spacing: .37px;
+}
+
+.service_list img {
+	width:85%;
+    padding-top: 2rem;
+}
+
+/*LATE SECTION */
+
+.late_section {
+	float:left;
+	width:100%;
+	background-color: #362641;
+	padding-top: 6rem;
+    padding-bottom: 6rem;
+	position: relative;
+}
+.late_list_1 ,.late_list_2 {
+	float:left;
+	width:100%;
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.late_text  {
+	float:left;
+	width:40%;
+}
+.late_text_2 {
+	float:right;
+	width:40%;
+	margin-top: 50px;
+}
+.late_img_2 {
+	float:left;
+	width:60%;
+}
+.late_img  {
+	float:right;
+	width:60%;
+}
+.late_text h3 {
+	color:#FFD66A;
+	font-family:"Viaoda Libre", display;
+	font-size:50px;
+	font-weight:500;
+}
+#late_p {
+	color:#E49DCD;
+	font-family:"Sora", sans-serif;
+	font-size:20.96px;
+	font-weight:400;
+}
+.late_text p ,.late_text_2 p {
+	color:#FFFFFF;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:400;
+    line-height: 2;
+    letter-spacing: .37px;
+	margin-right: 25px;
+
+}
+
+.late_img img ,.late_img_2 img{
+	width:90%;
+	}
+
+/*TEAM SECTION*/
+.team_section {
+	float:left;
+	width:100%;
+	background-color:#ffd66a;
+}
+.team_title ,.team_img  {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.team_lists {
+	float:left;
+	width:100%;
+}
+.team_1 ,.team_2 {
+	float:left;
+	width:33.3%;
+}
+.team_3 {
+	float:right;
+	width:33.3%;
+}
+.team_1 ,.team_2 ,.team_3 {
+	width: 300px;
+  height: 500px;
+  border: 1px solid blue;
+  background-color:red;
+  padding:0em 1em;
+}
+.team_title h4 {
+	color: #362641;
+	font-family :"Viaoda Libre", display;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 0.46px;
+	text-align:center;
+}
+.team_img li {display:inline;
+}
+.team_img img {
+	width:30%;
+	padding:0em 1em;
+}
+/*FORM SECTION*/
+.form_pagecenter {
+	float:none;
+	width:100%;
+	max-width:80%;
+	margin:0 auto;
+}
+.form_section {
+	float:left;
+	width:100%;
+	background-color: white;
+	padding-top: 3rem;
+    padding-bottom:2rem;
+	position: relative;
+}
+.form_section h3 {
+	color:#E62B56;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:500;
+	text-align:center;
+	margin-bottom: 25px;
+}
+.form_section p {
+	color:#282727;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:300;
+	text-align:center;
+}
+.form_section img {
+	width:65%;
+	margin-left: 195px;
+}
+/*FOOTER SECTION*/
+
+.footer_section {
+	float:left;
+	width:100%;
+	
+	
+ background-attachment: fixed;
+padding-top: 60px;
+padding-bottom: 60px;
+background-color: #725686;
+
+}
+.footer_pagecenter {
+	float:none;
+	width:100%;
+	max-width:80%;
+	margin:0 auto;
+}
+
+.footer ,.footer_left ,.bottom {
+	float:left;
+	width:100%;
+}
+.footer_list1 ,.footer_list2 {
+	float:left;
+	width:30%;
+}
+.footer_left li {
+	color:#F4F3EE;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:300;
+	line-height: 2;
+letter-spacing: .37px;
+}
+.bottom_left {
+	float:left;
+	width:40%;
+}
+.bottom_center {
+	float:left;
+	width:20%;
+}
+.bottom_center img{width:30%;}
+.bottom_right {
+	float:right;
+	width:40%;
+	text-align:right;
+}
+.bottom_list li {
+	display:inline;
+	padding:0em 2em;
+	text-align:right;
+	color:white;
+	
+}
+.footer_section p {
+	color:#FFFFFF;
+	font-family:"Sora", sans-serif;
+	font-size:16px;
+	font-weight:500;
+}
